@@ -2,4 +2,5 @@ SO in this level i follwed the same process as the old level but the file which 
 so first i did the regular command cat - but it did not give me any results so i searched and found out to open this types of file we have to use this command
     cat ./-
 after this the file opened.
+After that i logged into bandit2 username with password.
 Level finsished.
