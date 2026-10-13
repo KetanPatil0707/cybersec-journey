@@ -1,0 +1,9 @@
+so in this level i had to search for a password hidden in the home directory inside a file on home page 
+
+Process
+1.First i did ls command and found a file named readme.
+2. Then i opened the file using cat command and found the password in it.
+3. then i exited the bandit0 user login .
+4. then i logined into bandit1 user using the following command
+    ssh bandit1@bandit.labs.overthewire.org -p 2220
+5.After this i entered the password and succesfully loggined in into the bandit1 user
