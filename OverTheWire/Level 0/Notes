@@ -1,0 +1,8 @@
+So Today i started with over the wire site and completeed level 0
+so basically in level 0 i had to connect to the url bandit.labs.overthewire.org using ssh on port 2220 with username bandit0 and password bandit 0
+
+
+i started to connect to the url using my kali virtual machine and i used the command 
+    ssh bandit.labs.overthewire.org -p 2220
+    -Doing this i connect to the site but with my own username not bandit0 so i figured out my mistake and connected using again using the following command
+    ssh bandit0@bandit.labs,overthewire,org -p 2220
