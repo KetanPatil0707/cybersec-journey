@@ -1,0 +1,21 @@
+So in this level i followed the following procedures:-
+1.First i listed the my working directory using"pwd" command.
+2.Then i listed files usiong'ls' command and it had only one folder called 'inhere'.
+Then i changed my directory to 'inhere' folder using the command 'cd inhere'.
+after that i listed the files in the inhere directory and found out that it contained total of nine files that is:-
+    -file00
+    -file01
+    -file02
+    -file03
+    -file04
+    -file05
+    -file06
+    -file07
+    -file08
+    -file09
+After this i used the command "ls -a -l -n" for follwing purposes:-
+    -a for shwoing the hidden files
+    -l for showing the files in list format.
+    -n for showing the size of files in byte size.
+after looking through all the files in inhere directory i found the p[assword in file "-file07"
+End of Level.
