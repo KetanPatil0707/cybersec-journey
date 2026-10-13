@@ -1,0 +1,7 @@
+so in this level i really struggled as i made too many mistakes
+1.I firstly entered wrong file name
+2.then i made a mistake with oepning it
+
+But after that i figured it out as to how to open files with spaces and --
+    cat -- "--spaces in this filename--" 
+after this the file showed the hidden password
