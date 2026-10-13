@@ -1,0 +1,4 @@
+so in this level i had a folder named 'inhere' with a file containing password but when i opened it using the 'ls' command it was showing 
+  that the folder is empty so i figured out that the file must be hidden so i accessed it with the command to show hidden files with 'ls -a' 
+  and it showed me the file with password. the file was called ...Hiding-From-You.
+so i usde the 'cat command' to view the file and viola it contained the password.
