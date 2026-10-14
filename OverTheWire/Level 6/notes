@@ -1,0 +1,38 @@
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+human-readable
+1033 bytes in size
+not executable
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+so in this level i follwed the following process
+1. First in printed by working directopry and listed the items in home directory.
+2. After this i headed to 'innhere' folder adnd listed the files in it.
+3. After listing the files in 'inhere' directory , i found fololowing folder:-
+    maybehere1
+    maybehere2
+    maybehere3
+    maybehere4
+    maybehere5
+    maybehere6
+    maybehere7
+    maybehere8
+    maybehere9
+    maybehere10
+    maybehere11
+    maybehere12
+    maybehere13
+    maybehere14
+    maybehere15
+    maybehere16
+    maybehere17
+    maybehere18
+    maybehere19
+4. So after this i used the find command with certain paramnetres as follows:_
+    find . -type f -size 1033c ! -executable
+    -type f is used fro specifying the file type as normal file
+    -size 1033c It is used to specify the size of the file i.e. 1033 bytes in this case 
+    ! -executable This is used to specify that the file is not executable 
+5.after executing the find command it gave a file location as follows:_
+    ./maybehere/.file2
+6.The i cat to the directory and found the password for next level.
+LEVEL FINISHED.
