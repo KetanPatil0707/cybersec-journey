@@ -1,0 +1,12 @@
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I followed the following procedure:-
+1. I listed the files in the home directory .
+2. In the home directory there was only one file called 'datda.txt'.
+3. So the problem stated that it is one with uniques value in the file.
+4. So i used the 'sort' with 'uniq' parameter.
+5. The command i used was
+    sort data.txt| uniq -c
+6. This gave me the password for bandit9.
+LEVEL FINSIHED
