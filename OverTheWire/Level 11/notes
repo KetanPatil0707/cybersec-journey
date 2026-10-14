@@ -1,0 +1,10 @@
+The password for the next level is stored in the file data.txt, which contains base64 encoded data.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The procedure i followed to solve thei level is as follows:-
+1. I started with listing the files in home directory and found 'data.txt' file.
+2. The file contained encoded value .
+3. So as to deocde and obtain the password i used tthe following command:-
+      base64 -d data.txt
+4.The above command decoded teh text and gave me the opasword for the bandit11.
+LEVEL FINSIHED  
