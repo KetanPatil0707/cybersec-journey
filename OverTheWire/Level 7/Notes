@@ -1,0 +1,20 @@
+The password for the next level is stored somewhere on the server and has all of the following properties:
+
+owned by user bandit7
+owned by group bandit6
+33 bytes in size
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+I followed the following process:_
+1. First i logined into bandit 6 and listed the fiels in home dir4edtory but it was all empty.
+2. Then i used the find command to find the file.
+3. The following is the find command with parameters:-
+    find / -type f -user bandit7 -group bandit6 -size 33c
+      -type f ---> It speciifes that the type of filem is normal file.
+      -user bandit7 ---> It specifies that the file is used by the user bandit7
+      -group bandit6 ---> It specifeis thta the file is owned by bandit6.
+      -size 33c ----> It specifeis the size of the file.
+4. After running the command i got a result as follwos:-
+     /var/lib/dpkg/info/bandit7.password
+5.Then i used the cat command on the result directory and found ther password forf bandit 7.
+LEVEL FINSIHED
