@@ -1,0 +1,15 @@
+The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The rpocedures i used to solve this level is as follows:-
+1. First i started with listing the files in home directory and found 'data.txt' file.
+2. Then i opened the file using the 'cat' command.
+3. The file was encrypted so as to decrytp the file i used 'cat' command with 'tr' command
+4. The command i used is as follows:-
+      cat data.txt | tr 'A-Za-z' 'Z-NA-Mz-na-m'
+            cat ---> This is used to open and display the contents of a file.
+            tr ---> It translates the texts like decoding
+            'A-Za-z' -----> This converts the upeeercase letters to lowercase letter.
+            'Z-NA-Mz-na-m' ----> This Shifts the text by 13 characters and decodes it that way.
+5. After running this command it gave the decrypted password for bandit12.
+LEVEL FINSIHED.  
