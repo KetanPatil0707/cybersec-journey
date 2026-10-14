@@ -1,3 +1,6 @@
+The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The procedure i followed to solve this level is as follows:-
 1. First i started with listing files in home directory and found 'data.txt' file.
 2. The question stsated that the password in file has some characterstics
