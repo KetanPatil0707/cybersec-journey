@@ -1,0 +1,10 @@
+The password for the next level is stored in the file data.txt next to the word millionth
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The procedure i foloowed to clear this level is as follows:-
+1. First i listed the files in home directory and then found a single file named 'data.txt'.
+2. Then i cat the file and i gave me very long list of texts so i knew my approach was wrong.
+3. After that i used 'grep ' command .
+4. The command use was 'grep "millionth" data.txt'.
+5. This gave me the password for the bandit8.
+LEVEL FINISHED.
