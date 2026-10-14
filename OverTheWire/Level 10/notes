@@ -1,0 +1,11 @@
+The procedure i followed to solve this level is as follows:-
+1. First i started with listing files in home directory and found 'data.txt' file.
+2. The question stsated that the password in file has some characterstics
+      -It is human readadble.
+      -It is precideed with '=='.
+3. Then i used the 'strings' command with 'grep'.
+4. The command is as follows:-
+    strings data.txt | grep '='
+5.The 'strings' command is used to detect the human raedable text inside the file.
+6.The above command gave me the password for bandit10.
+LEVEL FINISHED
